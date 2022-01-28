@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Itim', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://f4fcdn.eu/wp-content/uploads/2019/04/shutterstock_150071042.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: large;
+}
+
+.container {
+    background: rgb(250, 248, 248);
+    padding: 0 30px 30px;
+    border: solid 2px black;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 2px;
+}
+
+.container__header {
+    padding: 10px 20px 1px 20px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+.form__label {
+    display: grid;
+    grid-template-columns: auto 180px;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.form__result {
+    text-align: center;
+    font-size: x-large;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.button__specification {
+    background-color: teal;
+    padding: 15px 80px;
+    border: none;
+    box-shadow: none;
+    border-radius: 8px;
+    margin: 15px;
+    color: #eee;
+}
+
+.button__specification:hover {
+    background-color: hsl(180, 100%, 30%);
+}
+    
+.button__specification:active {
+    background-color: hsl(180, 100%, 35%);
+}
